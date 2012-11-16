@@ -1,6 +1,7 @@
 import java.rmi.*;
 
 public class client_RMI {
+	public int id;
 	
 	public void connect(int id) throws RemoteException {
 		try {
